@@ -11,7 +11,7 @@ func main() {
 	yearOfBirth := 2008
 	numberOfSiblings := 1
 	heightInMeters := 1.75
-	zodiacSign := "Aries"
+	zodiacSign := '\u2648' // Aries ♈
 	fmt.Printf("Vor- und Nachname: %s %s\n", firstName, lastName)
 	fmt.Printf("Geburtsdatum: %d.%d.%d\n", dayOfBirth, monthOfBirth, yearOfBirth)
 	fmt.Printf("Anzahl Geschwister: %d\n", numberOfSiblings)
